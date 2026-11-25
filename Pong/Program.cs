@@ -1,0 +1,14 @@
+using Pong.Interface;
+
+namespace Pong
+{
+    internal static class Program
+    {
+        [STAThread]
+        static void Main()
+        {
+            ApplicationConfiguration.Initialize();
+            Application.Run(new FormPrincipal());
+        }
+    }
+}
